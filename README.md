@@ -79,3 +79,5 @@ The final model visually and numerically fits the observed dataset well.
 
 
 
+<img width="1015" height="764" alt="image" src="https://github.com/user-attachments/assets/09fb5f95-e44d-4e40-90ae-7ea1ed7b23e9" />
+
