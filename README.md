@@ -1,6 +1,6 @@
-# 📊 Parametric Curve Fitting using Non-Linear Least Squares
+# Parametric Curve Fitting using Non-Linear Least Squares
 
-## 🧠 Objective
+## Objective
 The goal of this project is to estimate the unknown parameters **(θ, M, X)** in a given **parametric curve model** so that it best fits the observed dataset (`xy_data.csv`).
 
 The parametric equations are:
@@ -14,7 +14,7 @@ y(t) = 42 + t\sin\theta + e^{M|t|}\sin(0.3t)\cos\theta
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 1. **Data Loading**
    - The dataset `xy_data.csv` is loaded using **Pandas**.
@@ -54,7 +54,7 @@ y(t) = 42 + t\sin\theta + e^{M|t|}\sin(0.3t)\cos\theta
 
 ---
 
-## 🧮 Results
+## Results
 
 | Parameter | Symbol | Value        | Description |
 |------------|----------|--------------|--------------|
@@ -67,7 +67,7 @@ y(t) = 42 + t\sin\theta + e^{M|t|}\sin(0.3t)\cos\theta
 
 ---
 
-## 📈 Interpretation
+## Interpretation
 
 - **θ = 29.58°** → Curve rotated upwards from x-axis.  
 - **M = -0.05** → Damped oscillations with increasing t.  
